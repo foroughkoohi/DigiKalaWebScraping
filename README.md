@@ -31,20 +31,9 @@ The data is stored in a CSV file with three columns:
 - **/data**: Folder to store the output CSV files containing the scraped data.
 
 ## How to Run the Project
+Make sure to have **ChromeDriver** installed and compatible with your Chrome browser version.
 
-1. Install the necessary Python libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
-2. Make sure to have **ChromeDriver** installed and compatible with your Chrome browser version.
-
-3. To run the script, provide the product keywords and desired CSV file name:
-   ```bash
-   python scrape_reviews.py
-   ```
-
-4. The output CSV file will be created in the `/data` directory with the scraped reviews and sentiments.
 
 ## Example Output
 A sample of the scraped data might look like this:
