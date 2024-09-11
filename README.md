@@ -25,11 +25,6 @@ The data is stored in a CSV file with three columns:
 3. **Iterative Scraping**: To extract reviews across multiple pages, the code iterates through available pages and appends the reviews to a CSV file.
 4. **Sentiment Analysis**: After the data is collected, the reviews are labeled with sentiment based on their ratings.
 
-## File Structure
-- **scrape_reviews.py**: Main Python file containing the web scraping logic and sentiment analysis code.
-- **requirements.txt**: List of dependencies needed to run the project.
-- **/data**: Folder to store the output CSV files containing the scraped data.
-
 ## How to Run the Project
 Make sure to have **ChromeDriver** installed and compatible with your Chrome browser version.
 
